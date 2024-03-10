@@ -25,8 +25,12 @@ This repo aims to classify the tumor using Vision Transformer (ViT)
 $$
 z_0 =
 \begin{bmatrix}
-x_{\text{class}} & x^1_{\text{p}}E & x^2_{\text{p}}E & \ldots & x^N_{\text{p}}E
-\end{bmatrix} + E_{\text{pos}}, \quad E \in \mathbb{R}^{(P^2 \cdot C) \times D}, \quad E_{\text{pos}} \in \mathbb{R}^{(N+1) \times D}
+x_{\text{class}}\\ 
+x^1_{\text{p}}E\\ 
+x^2_{\text{p}}E\\ 
+\ldots\\
+x^N_{\text{p}}E
+\end{bmatrix} + E_{\text{pos}}, \quad E \in \mathbb{R}^{(P^2 \cdot C) \times D},  \quad z_0, E_{\text{pos}} \in \mathbb{R}^{(N+1) \times D}
 $$
 
 # Evaluate the performance
